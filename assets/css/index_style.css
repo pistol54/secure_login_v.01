@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 85%/1.4 Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+article {
+	padding: 10px 0;
+	width: 700px;
+	float: left;
+	height:725px;
+	padding-left: 10px;
+}
+
+.search {
+	margin-right: 105px;
+	width: 165px;
+	height:100px;
+	float: right;
+	padding-right: 100px;
+}
+
+.forms {
+	font: 25% Verdana, Arial, Helvetica, sans-serif;
+}
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol { 
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
